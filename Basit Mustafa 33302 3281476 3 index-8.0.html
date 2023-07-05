@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment</title>
+</head>
+
+  <style>
+    #contact-form fieldset {width:40%;}
+#contact-form li {margin:10px; list-style: none;}
+#contact-form input  {margin-left:45px; text-align: left;}
+#contact-form textarea {margin-left:10px; text-align: left;}
+  </style>
+
+<body>
+
+    <form id="contact-form" action="script.php" method="post">
+
+    <fieldset>
+
+        <legend>Login details</legend>
+
+        <ul>
+            <li><label for="name">Name:</label> <input type="text" name="name" id="name" value="" size="25%" /></li>
+           
+            <li><label for="Email">Email:</label> <input type="Email" name="Email" id="Email" value="" size="25%" />
+            </li>
+            
+            <li><label for="Password">password:</label> <input type="password" name="name" id="name" value=""
+                    size="25%" /></li>
+
+    </fieldset>
+
+    <fieldset >
+
+        <legend>Your feedback</legend>
+
+        <ul >
+            <li>
+                <p>Please check all the emotions that apply to you:</p>
+            </li>
+
+            <li>Angry <input type="checkbox"></li>
+            <li>Sad <input type="checkbox"></li>
+            <li>Happy <input type="checkbox"></li>
+            <li>Ambivalent <input type="checkbox"></li>
+
+            <p>How satisfied were you with our service?</p>
+
+            <li>Very satisfied <input type="checkbox"></li>
+
+    </fieldset>
+
+</form>
+
+</body>
+
+</html>
